@@ -19,12 +19,12 @@
                <stops>
                   <Stop>
                      <color>
-                        <Color green="0.4833333194255829" blue="1.0" />
+                        <Color red="0.3843137323856354" green="0.5176470875740051" blue="1.0" />
                      </color>
                   </Stop>
                   <Stop offset="1.0">
                      <color>
-                        <Color red="1.0" blue="0.5" />
+                        <Color red="1.0" blue="0.5142857432365417" />
                      </color>
                   </Stop>
                </stops>
@@ -34,7 +34,7 @@
             <Font name="Corbel" size="60.0" />
          </font>
          <VBox.margin>
-            <Insets bottom="30.0" top="20.0" />
+            <Insets bottom="15.0" top="20.0" />
          </VBox.margin>
       </Label>
       <Label fx:id="InvalidMessage" alignment="CENTER" contentDisplay="CENTER" prefHeight="14.0" prefWidth="600.0" text="Invalid login, please try again." textFill="RED" visible="false">
@@ -47,7 +47,7 @@
       </Label>
       <TextField fx:id="UsernameField" layoutX="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefColumnCount="3" prefHeight="25.0" prefWidth="150.0" promptText="Username" style="-fx-background-color: #fff; -fx-border-color: #eee; -fx-border-width: 1.5; -fx-border-radius: 4;" VBox.vgrow="NEVER">
          <VBox.margin>
-            <Insets top="-5.0" />
+            <Insets />
          </VBox.margin></TextField>
       <TextField fx:id="PasswordVisible" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefColumnCount="3" prefHeight="25.0" prefWidth="150.0" promptText="Password" style="-fx-background-color: #fff; -fx-border-color: #eee; -fx-border-radius: 4; -fx-border-width: 1.5;" visible="false">
          <VBox.margin>
@@ -67,7 +67,7 @@
             <Insets top="5.0" />
          </VBox.margin>
       </Button>
-      <Button fx:id="LoginButton" minWidth="100.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="Login" textFill="#6284ff">
+      <Button fx:id="LoginButton" minWidth="100.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #6284ff;" text="Login" textFill="WHITE">
          <VBox.margin>
             <Insets top="15.0" />
          </VBox.margin>

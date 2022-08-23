@@ -46,7 +46,7 @@
             <Font name="Corbel Bold" size="30.0" />
          </font>
          <VBox.margin>
-            <Insets bottom="35.0" top="25.0" />
+            <Insets bottom="25.0" top="25.0" />
          </VBox.margin>
       </Label>
       <Label fx:id="UsernameError" prefHeight="17.0" prefWidth="250.0" text="Username must not be blank" textFill="#ff5656" visible="false">

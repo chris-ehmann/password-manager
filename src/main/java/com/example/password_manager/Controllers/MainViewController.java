@@ -10,6 +10,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
@@ -93,6 +94,7 @@ public class MainViewController {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setScene(scene);
         stage.setTitle("Add Password");
+        stage.getIcons().add(new Image(String.valueOf(PasswordApplication.class.getResource("img/lock-icon.png"))));
         stage.show();
     }
 
