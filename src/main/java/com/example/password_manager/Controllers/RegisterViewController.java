@@ -33,7 +33,7 @@ public class RegisterViewController {
         else if(PasswordField.getText().length() < 8) {
             System.out.println("Password must be 8 or more characters in length.");
         }
-        else if(!TextChecker.isLegalString(PasswordField.getText()) || !TextChecker.isLegalString(UsernameField.getText())) {
+        else if(TextChecker.isIllegalString(PasswordField.getText()) || TextChecker.isIllegalString(UsernameField.getText())) {
             System.out.println("Username and password must be alphanumeric.");
         }
         else {

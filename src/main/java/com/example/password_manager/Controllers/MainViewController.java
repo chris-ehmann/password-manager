@@ -11,7 +11,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -148,7 +147,7 @@ public class MainViewController {
         reset();
     }
 
-    public void onListObjectButtonClick(MouseEvent event) {
+    public void onListObjectButtonClick() {
         Password selectedPassword = ListView.getSelectionModel().getSelectedItem();
         if(!selectedPassword.getPassword().isBlank()) {
             PasswordViewBox.setVisible(true);

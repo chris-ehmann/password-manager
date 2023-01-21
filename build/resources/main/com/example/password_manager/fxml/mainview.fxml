@@ -40,6 +40,8 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
@@ -69,12 +71,17 @@
                   <Insets left="15.0" top="12.0" />
                </FlowPane.margin>
                <children>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/unlock-icon.png" />
+                     </image>
+                  </ImageView>
                   <Label fx:id="SiteLinkLabel" text="SiteLink" textFill="#6284ff">
                      <font>
                         <Font name="Corbel Bold" size="24.0" />
                      </font>
                      <VBox.margin>
-                        <Insets bottom="30.0" top="20.0" />
+                        <Insets bottom="10.0" top="15.0" />
                      </VBox.margin>
                   </Label>
                   <Label fx:id="UsernameHeader" prefHeight="17.0" prefWidth="250.0" text="Username" textFill="#6284ff">
@@ -127,7 +134,7 @@
                         <Font name="Corbel" size="18.0" />
                      </font>
                      <VBox.margin>
-                        <Insets bottom="10.0" top="35.0" />
+                        <Insets bottom="10.0" top="20.0" />
                      </VBox.margin>
                   </Button>
                   <Button fx:id="DeleteButton" mnemonicParsing="false" onAction="#onDeleteButtonClick" prefWidth="100.0" style="-fx-background-color: #ff5656;" text="Remove" textFill="WHITE">
@@ -135,13 +142,16 @@
                         <Font name="Corbel" size="18.0" />
                      </font>
                      <VBox.margin>
-                        <Insets bottom="10.0" />
+                        <Insets bottom="5.0" />
                      </VBox.margin>
                   </Button>
                   <Button fx:id="CloseButton" mnemonicParsing="false" onAction="#onCloseButtonClick" prefWidth="100.0" style="-fx-background-color: transparent;" text="Close" textFill="#6284ff">
                      <font>
                         <Font name="Corbel" size="18.0" />
                      </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
                   </Button>
                </children>
             </VBox>
