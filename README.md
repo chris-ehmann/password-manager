@@ -1,10 +1,10 @@
-#Offline Password Manager
+# Offline Password Manager
 
 An offline password manager to store and manage a user's passwords.
 
-##Demo
+## Demo
 
-##Usage
+## Usage
 
 You will have to build this project yourself. 
 
