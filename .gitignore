@@ -1,0 +1,25 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+.firebase/
+.firebaserc
+firebase.json
+remoteconfig
+.git/
+.github/
+.gradle/
+build/
+.idea
+gradle
+build.gradle
+gradlew
+gradlew
+identifier.sqlite
+settings.gradle
